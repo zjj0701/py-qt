@@ -5,6 +5,7 @@ from PyQt6.QtWidgets import QApplication, QPlainTextEdit
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
+
     ui = uic.loadUi("./ui/plaintextedit.ui")
     edit:QPlainTextEdit = ui.plainTextEdit
     edit.setPlainText("text")
