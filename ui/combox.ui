@@ -22,6 +22,9 @@
      <height>22</height>
     </rect>
    </property>
+   <property name="duplicatesEnabled">
+    <bool>false</bool>
+   </property>
    <item>
     <property name="text">
      <string>1</string>
